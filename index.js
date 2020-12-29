@@ -2,7 +2,7 @@
    Complete the below for code reviewers' convenience:
 
    Code repository: https://github.com/AndriiZahumnyi/a-tiny-js-world-post-oop/
-   Web app: https://andriizahumnyi.github.io/a-tiny-JS-world/
+   Web app: https://andriizahumnyi.github.io/a-tiny-js-world-post-oop/
    */
 
 // ======== OBJECTS DEFINITIONS ========
@@ -51,10 +51,6 @@ class Cat extends Inhabitant {
       this.tail = tail;
       this.saying = saying;
    }
-
-  /*  get saying () {
-      return this._saying;
-   } */
 
    inhabitantInfo() {
       return `${super.inhabitantInfo()}<strong> Tail: </strong>${this.tail}`;
